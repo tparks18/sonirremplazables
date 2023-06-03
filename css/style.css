@@ -22,7 +22,6 @@ contact
 blog page
 ------------------------------------------------------------*/
 
-
 /********* html5 and responsive content *********/
 header, 
 nav, 
@@ -1579,6 +1578,7 @@ figure.effect-sadie:hover p {
   position: relative;
   float: left;
   border: #b7201e 1px solid;
+  /* height: 350px; */
 }
 .bloghomepage .owl-theme-inner-text {
   position:relative;
@@ -1586,11 +1586,16 @@ figure.effect-sadie:hover p {
   float:left;
   padding: 0 20px;
 }
+
 .bloghomepage .owl-theme-inner h4 {
   margin-bottom: 12px;
   margin-top: 0;
   font-size: 27px;
 }
+
+/* .owl-theme-inner {
+  overflow: hidden;
+} */
 .bloghomepage .owl-theme-inner a:link, 
 .bloghomepage .owl-theme-inner a:visited {
   display: inline-block;
